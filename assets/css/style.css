@@ -1,0 +1,450 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+nav {
+    background-color: #c2c2c2;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black
+}
+
+.btn-contact {
+    background-color: orangered;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+}
+
+/* Card Section */
+.card-section {
+    max-width: 500px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.card-section:hover {
+    background-color: aqua;
+}
+
+.card p {
+    text-align: justify;
+}
+
+.fa-solid {
+    cursor: pointer;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 10px;
+}
+
+.card-content {
+    margin: 20px auto;
+    padding: 5px;
+    max-width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.card-content h3 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Contact */
+.contact-section {
+    max-width: 350px;
+    margin: 20px auto;
+}
+
+form h3 {
+    display: flex;
+    justify-content: center;
+}
+
+form div input, select, textarea {
+    width: 100%;
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    transition: 0.3s;
+}
+
+/* Add Project Section */
+.addProject-Section {
+    max-width: 500px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+form div button {
+    background-color: black;
+    color: white;
+    padding: 3px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.technologies-group input {
+    width: 5%;
+}
+
+.input-submit {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Project Section */
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.project-section {
+    background-color: #d9d9d9a2;
+    padding: 120px 20px 80px 20px;
+}
+  
+.project-section h3 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+  
+.project-section .form-project {
+    width: 50%;
+    margin: 0 auto;
+    font-weight: 500;
+}
+  
+.project-section .form-project .form-one {
+    margin-bottom: 15px;
+}
+  
+.project-section .form-project .form-one input, textarea {
+    width: 100%;
+    padding: 8px 10px;
+    box-shadow: 0 0 5px rgba(13, 13, 13, 0.2);
+    border-radius: 5px;
+    border: none;
+    resize: none;
+}
+  
+.project-section .form-project .form-one input, textarea:focus {
+    outline: none;
+}
+  
+.project-section .form-project .form-group {
+    display: flex;
+    margin-bottom: 15px;
+}
+  
+.project-section .form-project .form-group .form-left {
+    width: 48%;
+    margin-right: 2%;
+}
+  
+.project-section .form-project .form-group .form-left label {
+    width: 100%;
+}
+  
+.project-section .form-project .form-left input {
+    width: 100%;
+    padding: 8px 10px;
+    box-shadow: 0 0 5px rgba(13, 13, 13, 0.2);
+    border-radius: 5px;
+    border: none;
+    resize: none;
+    margin-right: 2%;
+}
+  
+.project-section .form-project .form-left input:focus {
+    outline: none;
+}
+  
+.project-section .form-project .form-group .form-right {
+    width: 48%;
+    margin-left: 2%;
+}
+  
+.project-section .form-project .form-group .form-right label {
+    width: 100%;
+}
+  
+.project-section .form-project .form-right input {
+    width: 100%;
+    padding: 8px 10px;
+    box-shadow: 0 0 5px rgba(13, 13, 13, 0.2);
+    border-radius: 5px;
+    border: none;
+    resize: none;
+    margin-left: 2%;
+}
+  
+.project-section .form-project .form-right input:focus {
+    outline: none;
+}
+  
+.project-section .form-project .checkbox {
+    margin-bottom: 15px;
+}
+  
+.project-section .form-project .checkbox .check-group {
+    display: flex;
+}
+  
+.project-section .form-project .checkbox .check-group .cb-one {
+    width: 50%;
+}
+  
+.project-section .form-project .checkbox .check-group .cb-one input {
+    margin-right: 10px;
+    box-shadow: 0 0 5px rgba(13, 13, 13, 0.2);
+}
+  
+.project-section .form-project .checkbox .check-group .cb-one input:focus {
+    outline: none;
+}
+  
+.project-section .form-project .checkbox .check-group .cb-one label {
+    width: 75%;
+}
+  
+.project-section .form-project .file {
+    width: 100%;
+    margin-bottom: 15px;
+}
+  
+.project-section .form-project .file .choose-file input[type="file"] {
+    display: none;
+}
+  
+.project-section .form-project .file .choose-file .file-upload {
+    display: inline-block;
+    cursor: pointer;
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 100%;
+    box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.3);
+}
+  
+.project-section .form-project .file .choose-file .file-upload p {
+    background-color: whitesmoke;
+    float: left;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+  
+.project-section .form-project .file .choose-file .file-upload i {
+    padding: 12px 12px;
+    float: right;
+}
+  
+.project-section .form-project button {
+    background-color: #0d0d0d;
+    color: #ffffff;
+    padding: 5px 15px;
+    border-radius: 20px;
+    float: right;
+    border: none;
+    cursor: pointer;
+}
+  
+.project-section .form-project button:hover {
+    background-color: #a6a6a6;
+}
+.technologies-group input {
+    width: 5%;
+}
+
+/* My Project Section */
+
+.myproject-section {
+    background-color: #ffffff;
+    padding: 80px 20px;
+}
+  
+.myproject-section h3 {
+    font-size: 24px;
+    text-align: center;
+}
+  
+.myproject-section .card-one {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.myproject-section .card-one .card {
+    width: 30%;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(13, 13, 13, 0.2);
+    margin: 60px 20px 15px 20px;
+}
+  
+.myproject-section .card-one .card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+  
+.myproject-section .card-one .card a {
+    color: #0d0d0d;
+    font-size: 20px;
+    font-weight: 500;
+}
+  
+.myproject-section .card-one .card h5 {
+    font-size: 14px;
+    font-weight: 400;
+}
+  
+.myproject-section .card-one .card p {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 10px 0 5px 0;
+}
+  
+.myproject-section .card-one .card i {
+    font-size: 24px;
+    margin: 15px 0 25px 0;
+}
+  
+.myproject-section .card-one .card .btn {
+    display: flex;
+}
+  
+.myproject-section .card-one .card .btn button {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+  
+.myproject-section .card-one .card .btn button:hover {
+    background-color: gray;
+}
+  
+.myproject-section .card-one .card .btn .edit {
+    width: 48%;
+    margin-right: 1%;
+}
+  
+.myproject-section .card-one .card .btn .delete {
+    width: 48%;
+    margin-left: 1%;
+}
+
+/* Project Detail */
+.blog-section {
+    background-color: #d9d9d9a2;
+    padding: 120px 20px 80px 20px;
+}
+  
+.blog-section .blog {
+    width: 90%;
+    margin: 0 auto;
+}
+  
+.blog-section .blog h3 {
+    font-size: 24px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+  
+.blog-section .blog .top-content {
+    display: flex;
+}
+  
+.blog-section .blog .top-content .img {
+    width: 75%;
+}
+  
+.blog-section .blog .top-content .img img {
+    width: 100%;
+}
+  
+.blog-section .blog .top-content .detail {
+    margin-left: 30px;
+}
+  
+.blog-section .blog .top-content .detail h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+  
+.blog-section .blog .top-content .detail p {
+    margin: 15px 0;
+}
+  
+.blog-section .blog .top-content .detail i {
+    font-size: 20px;
+}
+  
+.blog-section .blog .top-content .technologies {
+    margin-top: 30px;
+}
+  
+.blog-section .blog .top-content .technologies h5 {
+    font-size: 18px;
+}
+  
+.blog-section .blog .top-content .technologies .tech-line {
+    display: flex;
+    margin-bottom: 10px;
+}
+  
+.blog-section .blog .top-content .technologies .tech-line .tech {
+    width: 50%;
+}
+  
+.blog-section .blog .top-content .technologies .tech-line .tech i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+  
+.blog-section .blog .bottom-content {
+    margin-top: 30px;
+}
+  
+.blog-section .blog .bottom-content p {
+    text-align: justify;
+}

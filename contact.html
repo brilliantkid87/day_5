@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Blog</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+
+    <nav>
+        <ul>
+            <img src="/assets/aptos.png" style="max-width: 50px;" alt="">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/project.html">Project</a></li>
+            <li style="width: 100%; display: flex; justify-content: flex-end;">
+                <a href="/contact.html" class="btn-contact">
+                    Contact Me
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Main -->
+    <main>
+
+        <!-- Contact Section -->
+        <section class="contact-section">
+            <form>
+                <h3>GET IN TOUCH</h3>
+                <div class="container">
+                    <div>
+                        <label for="input-name">Name</label>
+                        <input type="text" name="input-name" id="input-name" required>
+                    </div>
+                    
+                    <div>
+                        <label for="input-email">Email</label>
+                        <input type="email" name="input-email" id="input-email" required>
+                    </div>
+
+                    <div>
+                        <label for="input-phone">Phone Number</label>
+                        <input type="number" name="input-phone" id="input-phone" required>
+                    </div>
+
+                    <div>
+                        <label for="input-subject">JavaScript</label>
+                        <select name="input-subject" id="input-subject" required>
+                            <option hidden>Select</option>
+                            <option>FullStack</option>
+                            <option>FullStack</option>
+                            <option>FullStack</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="input-message">Your Message</label>
+                        <textarea name="input-message" id="input-message" cols="30" rows="10" required></textarea>
+                    </div>
+
+                    <div>
+                        <button style="display: flex; justify-content: flex-end;" type="button" onclick="showData()">Submit</button>
+                    </div>
+                    
+                </div>
+            </form>
+        </section>
+
+    </main>
+    
+    <script src="/assets/js/contact.js"></script>
+</body>
+</html>

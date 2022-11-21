@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    
+    <!-- NAVBAR -->
+    <nav>
+        <ul>
+            <img src="/assets/aptos.png" style="max-width: 50px;" alt="">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="#"></a>Project</li>
+            <li style="width: 100%; display: flex; justify-content: flex-end;">
+                <a href="/contact.html" class="btn-contact">
+                    Contact Me
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Main -->
+
+    <main>
+        <!-- Add Project Section -->
+        <section class="project-section">
+            <h3>ADD MY PROJECT</h3>
+            <div class="form-project">
+            <form onsubmit="addProject(event)">
+                <div class="form-one">
+                    <label for="project-name">Project Name</label>
+                    <input type="text" id="project-name" />
+                </div>
+                <div class="form-group">
+                    <div class="form-left">
+                        <label for="start-date">Start Date</label>
+                        <input type="date" name="start-date" id="start-date" />
+                    </div>
+                    <div class="form-right">
+                        <label for="end-date">End Date</label>
+                        <input type="date" name="end-date" id="end-date" />
+                    </div>
+                </div>
+                <div class="form-one">
+                    <label for="description">Description</label>
+                    <textarea name="description" id="description" cols="30" rows="5"></textarea>
+                </div>
+
+                <div class="checkbox">
+                    <label for="technologies">Technologies</label>
+                    <div class="technologies-group">
+                        <input value="fa-brands fa-node-js" type="checkbox" id="node-js" name="node-js">
+                        <label for="node-js">Node Js</label><br>
+                        <input value="fa-brands fa-react" type="checkbox" id="react-js" name="react-js">
+                        <label for="react-js">React Js</label><br>
+                        <input value="fa-brands fa-js" type="checkbox" id="javascript" name="javascript">
+                        <label for="javascript">JavaScript</label><br>
+                        <input value="fa-brands fa-css3" type="checkbox" id="css" name="css">
+                        <label for="css">CSS</label><br>
+                    </div>
+                </div>
+
+                <div class="file">
+                    <label for="input-blog-image">Upload Image</label>
+                    <input type="file" name="" id="input-blog-image">
+                </div>
+
+                <button>submit</button>
+            </form>
+            </div>
+        </section>
+        
+        <!-- My Project Section -->
+        <section class="myproject-section">
+            <h3>MY PROJECT</h3>
+            <div class="card-one" id="card-one">
+                <div class="card"> 
+                    <img src="/assets/bitcoin.png" alt="" />
+                    <a href="/project-detail.html">Bitcoin</a>
+                    <h5>duration : 3 month</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique iure ut ipsa, earum rem aspernatur!</p>
+                    <i class="fa-brands fa-node-js"></i>
+                    <i class="fa-brands fa-react"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-css3"></i>
+                    <div class="btn">
+                        <button class="edit">edit</button>
+                        <button class="delete">delete</button>
+                    </div>
+                </div>
+            </div>
+          </section>
+    </main>
+
+    <script src="/assets/js/project.js"></script>
+</body>
+</html>
